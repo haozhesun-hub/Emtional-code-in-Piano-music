@@ -1,0 +1,54 @@
+# Week 7
+
+Work completed:  
+I started to translate the Avid piano part into Python code in TunePad. I did work with only Section A, and I learned about how pitches are represented in MIDI numbers and how beat values are represented in note values. The code gave the music parts of melody, accompaniment and bass.
+
+Problems and reflection:  
+Several rhythms were not as anticipated. I discovered that to get the right pitches was half the job; note timing and voice relationships also had an impact.
+
+Next step:  
+Use the smaller passages in Section A and play the piece with the score.
+
+# Week 8
+
+Work completed:  
+I went on to check Section A and worked out Section B. I looked at the `pedalNote()` function (which adds sustain to notes) and tried out the musical voices independently to make individual parts easier to hear.
+
+Problems and reflection:  
+I wanted Section B to play and Section A repeated. Also asked if the end of B had all the necessary notes. The issues which arose from these problems prompted me to investigate not only the content of the notes, but also the Tracks layout. I started to realize the difference between looping code and repetition of the timeline.
+
+Next step:  
+Look at the end of B and sequence A and B in the correct order.
+
+# Week 9
+
+Work completed:  
+I extended this to Section C and began to work on the link to B. This included notes continuing from section to section, upper voice, notes and accompaniment on the right hand, and lower voice accompaniment.
+
+Problems and reflection:  
+Initially B did not play, so Section C was not to play, leading to the track length being checked and the project time. I also observed some issues with the left hand playback. Testing each hand both individually and with the other hand helped to narrow the investigation. This demonstrated to me that it is possible for a program to execute without an error message yet still create a musical that is incorrect.
+
+Next step:  
+Always monitor the left hand and try the movement between all three parts.
+
+# Week 10
+
+Work completed:  
+I did some work on the core code to make it easy to explain. I learned about how nested loops read each bar and note, how `bar  4 + offset` works to determine which note is in which bar, and how the modulo calculation and `getPlayhead()` control the sustain. Made some edits to the English comments, and recorded the explainer video.
+
+Problems and reflection:  
+It was not as easy to explain the calculations as it was to run the program. One note was enough when I followed it through the code, I understood which part in the code it starts, how long it lasts and how long it is sustained. In addition, I made peer feedback forms for the feedback on the music and explanation of the code.
+
+Next step:  
+Reread the feedback and get ready to write the reflection and instructions for the repository.
+
+# Week 11 
+
+Work completed:  
+I created the reflection, and the reference list and README to run the full code in just one Piano cell. Peer feedback forms and initial and final concept maps were added to reflection appendices. I also looked through the teacher's final peer review template.
+
+Problems and reflection:  
+Upon checking the document, it was found that the terminology in the code was incorrect, in-text citations were missing and the concept map images were not clear. I also had to provide an explanation for the supporting evidence in relation to my learning and not just in appendices.
+
+Next step:  
+Fix the remaining problems, review peer feedback and save reflection as PDF. Verify that the final code and README are found on the public GitHub repository and that a video and reflection PDF and repository link were submitted.
